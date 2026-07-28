@@ -1,0 +1,2 @@
+# Same complete dependency profile used by the Python 3.12 Streamlit Cloud deployment.
+-r requirements.txt

@@ -1,0 +1,27 @@
+enabled,name,label,group,target,lower,baseline,upper,integer,description
+True,occupancy_density_p_m2,Occupancy density,Building loads,building,0.064,0.08,0.096,False,Peak occupants per square metre.
+True,lighting_w_m2,Lighting power density,Building loads,building,8.0,10.0,12.0,False,Lighting sensible gain and electricity-related load driver.
+True,equipment_w_m2,Equipment power density,Building loads,building,6.4,8.0,9.6,False,Plug and laboratory equipment sensible gain.
+True,airflow_m3h_m2,Airflow intensity,Air system,building,3.2,4.0,4.8,False,Nominal supply airflow per conditioned area.
+True,infiltration_ach,Infiltration rate,Envelope and weather,building,0.35,0.5,0.65,False,Outdoor-air infiltration in air changes per hour.
+True,cooling_intensity_w_m2,Cooling design intensity,HVAC sizing,building,85.0,100.0,114.99999999999999,False,Installed/design cooling capacity per area.
+True,wall_u,Wall U-value,Envelope and weather,building,0.48,0.6,0.72,False,Opaque-wall thermal transmittance.
+True,shgc,Window SHGC,Envelope and weather,building,0.27999999999999997,0.35,0.42,False,Solar heat-gain coefficient.
+True,COP_COOL_NOM,Nominal cooling COP,HVAC performance,config,3.8249999999999997,4.5,5.175,False,Clean nominal cooling coefficient of performance.
+True,FAN_EFF,Fan total efficiency,HVAC performance,config,0.63,0.7,0.77,False,Total fan efficiency.
+True,COP_AGING_RATE,COP ageing rate,Equipment ageing,config,0.0025,0.005,0.0075,False,Annual irreversible COP deterioration term.
+True,RF_STAR,Fouling asymptote RF*,Heat-exchanger fouling,config,0.00014,0.0002,0.00026000000000000003,False,Asymptotic heat-exchanger fouling resistance.
+True,B_FOUL,Fouling growth constant,Heat-exchanger fouling,config,0.010499999999999999,0.015,0.0195,False,Exponential fouling-growth coefficient.
+True,DUST_RATE,Filter dust accumulation rate,Filter clogging,config,0.84,1.2,1.56,False,Dust accumulation per model day at nominal airflow.
+True,K_CLOG,Filter clogging coefficient,Filter clogging,config,4.199999999999999,6.0,7.800000000000001,False,Pressure-drop increase per accumulated dust unit.
+True,DEG_TRIGGER,S3 degradation trigger,Maintenance policy,config,0.45000000000000007,0.55,0.65,False,Composite degradation threshold for S3 intervention.
+True,RF_WARN,Fouling warning threshold,Maintenance policy,config,9.6e-05,0.00012,0.000144,False,Heat-exchanger warning threshold used by S3.
+True,DP_WARN,Filter pressure warning,Maintenance policy,config,272.0,320.0,368.0,False,Filter pressure-drop warning threshold used by S3.
+True,FILTER_INTERVAL,Preventive filter interval,Maintenance policy,config,67.5,90.0,112.5,True,Scheduled filter replacement interval in days.
+True,HX_INTERVAL,Preventive HX interval,Maintenance policy,config,135.0,180.0,225.0,True,Scheduled heat-exchanger cleaning interval in days.
+True,E_PRICE,Electricity tariff,Economics and carbon,config,0.08399999999999999,0.12,0.156,False,Electricity tariff in USD/kWh.
+True,CO2_FACTOR,Grid emission factor,Economics and carbon,config,0.402,0.536,0.67,False,Grid emissions in kgCO₂/kWh.
+True,COST_FILTER,Filter replacement cost,Economics and carbon,config,35.0,50.0,65.0,False,Cost per filter replacement.
+True,COST_HX,Heat-exchanger cleaning cost,Economics and carbon,config,210.0,300.0,390.0,False,Cost per heat-exchanger cleaning.
+True,APO_POP,S3 candidate population,S3 optimizer,config,12.0,18.0,30.0,True,Candidate controls evaluated in each S3 iteration.
+True,APO_ITERS,S3 optimizer iterations,S3 optimizer,config,5.0,10.0,20.0,True,Stochastic search iterations per control step.

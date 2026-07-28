@@ -1,0 +1,13 @@
+month,month_name,raw_designbuilder_to_model_total_factor,default_damping,effective_default_factor,cooling_factor,heating_factor,fan_factor,pump_factor,aux_factor,note
+1,Jan,1.0023,0.65,1.001495,1.0023,1.0023,1.0023,1.0023,1.0023,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+2,Feb,1.3486,0.65,1.22659,1.3486,1.3486,1.3486,1.3486,1.3486,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+3,Mar,1.3971,0.65,1.258115,1.3971,1.3971,1.3971,1.3971,1.3971,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+4,Apr,0.9129,0.65,0.943385,0.9129,0.9129,0.9129,0.9129,0.9129,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+5,May,0.7302,0.65,0.82463,0.7302,0.7302,0.7302,0.7302,0.7302,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+6,Jun,0.6664,0.65,0.78316,0.6664,0.6664,0.6664,0.6664,0.6664,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+7,Jul,0.7932,0.65,0.86558,0.7932,0.7932,0.7932,0.7932,0.7932,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+8,Aug,1.2315,0.65,1.1504750000000001,1.2315,1.2315,1.2315,1.2315,1.2315,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+9,Sep,1.7474,0.65,1.48581,1.7474,1.7474,1.7474,1.7474,1.7474,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+10,Oct,1.2494,0.65,1.16211,1.2494,1.2494,1.2494,1.2494,1.2494,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+11,Nov,0.8517,0.65,0.903605,0.8517,0.8517,0.8517,0.8517,0.8517,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
+12,Dec,0.8745,0.65,0.918425,0.8745,0.8745,0.8745,0.8745,0.8745,Raw factor derived from calendar-month DesignBuilder/model total ratio; engine applies damping and bounds at runtime.
